@@ -15,6 +15,5 @@ page_sections:
     url: ''
     button_text: ''
   background_image: "/uploads/2018/06/21/forestry-full.svg"
-published: false
 
 ---
