@@ -9,17 +9,8 @@ page_sections:
   navigation:
   - link: "/"
     link_text: Home
-- template: hero-banner-w-image
-  block: hero-2
-  headline: Formatted Headline!
-  content: Formatted Conent!
-  background_image: ''
-  image:
-    image: ''
-    alt_text: ''
-  cta:
-    enabled: false
-    url: ''
-    button_text: ''
+- template: text-only-hero-banner
+  block: hero-1
+  heading: Formatted Headline!
 
 ---
