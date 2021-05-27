@@ -21,6 +21,7 @@ fields:
   - navigation-header-w-button
   - simple-header
   - hero-banner-w-image
+  - text-only-hero-banner
   - content-feature
   - detail-content
   - 1-column-text
