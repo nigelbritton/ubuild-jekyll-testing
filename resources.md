@@ -11,15 +11,15 @@ page_sections:
     link_text: Home
 - template: hero-banner-w-image
   block: hero-2
-  image:
-    image: "/uploads/2018/06/21/edit.gif"
-    alt_text: Test Image
   headline: Formatted Headline!
   content: Formatted Conent!
+  background_image: ''
+  image:
+    image: ''
+    alt_text: ''
   cta:
     enabled: false
     url: ''
     button_text: ''
-  background_image: "/uploads/2018/06/21/forestry-full.svg"
 
 ---
