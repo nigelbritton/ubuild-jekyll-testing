@@ -1,5 +1,11 @@
 ---
 main:
+- url: "/about/"
+  weight: 3
+  title: About
+- url: "/recipes/"
+  weight: 2
+  title: Recipes
 - identifier: home
   url: "/"
   weight: 1
