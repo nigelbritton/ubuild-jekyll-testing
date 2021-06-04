@@ -1,4 +1,52 @@
 ---
 label: meta-document-recipe
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: image
+  type: file
+  config:
+    maxSize: 1
+  label: Image
+- name: ingredients
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Ingredients
+- name: yield
+  type: text
+  config:
+    required: false
+  label: Yield
+- name: instructions
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Instructions
+- name: cooking_time
+  type: text
+  config:
+    required: false
+  label: Cooking Time
+- name: preparation_time
+  type: text
+  config:
+    required: false
+  label: Preparation Time
