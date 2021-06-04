@@ -83,7 +83,8 @@ page_sections:
 - template: cards-1
   block: cards-1
   cards:
-  - category: []
+  - category:
+    - Puddings
     headline: Best Puddings
     content: "<p>Lorem ipsum dolor sit amet, vidit delenit omittantur eum ne. Albucius
       eleifend prodesset pri in, sea libris adipisci constituto et. Inani aliquid
