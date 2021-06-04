@@ -3,12 +3,19 @@ label: cards-1
 hide_body: true
 fields:
 - name: block
-  type: text
+  type: select
+  default: ''
   config:
     required: false
-  label: Block
-  hidden: true
-  default: cards-1
+    options:
+    - cards-1
+    - cards-2
+    source:
+      type: simple
+      section: ''
+      file: 
+      path: 
+  label: Block Style
 - name: cards
   type: field_group_list
   fields:
