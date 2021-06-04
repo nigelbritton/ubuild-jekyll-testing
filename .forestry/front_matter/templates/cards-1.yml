@@ -2,6 +2,13 @@
 label: cards-1
 hide_body: true
 fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: Block
+  hidden: true
+  default: cards-1
 - name: cards
   type: field_group_list
   fields:
