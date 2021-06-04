@@ -12,6 +12,10 @@ fields:
 - name: cards
   type: field_group_list
   fields:
+  - name: category
+    type: tag_list
+    default: []
+    label: Category
   - name: headline
     type: text
     config:
