@@ -49,15 +49,11 @@ fields:
     label: Link
   - name: document_link
     type: select
-    default: []
     config:
       required: false
-      options: []
       source:
         type: pages
         section: pages
-        file: 
-        path: 
     label: Document Link
   config:
     min: 
