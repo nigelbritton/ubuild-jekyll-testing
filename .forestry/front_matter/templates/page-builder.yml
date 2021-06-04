@@ -32,6 +32,7 @@ fields:
   - signup-bar
   - simple-footer
   - 4-column-footer
+  - cards-1
 pages:
 - index.md
 - resources.md
