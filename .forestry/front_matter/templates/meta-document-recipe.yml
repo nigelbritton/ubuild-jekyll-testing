@@ -50,3 +50,5 @@ fields:
   config:
     required: false
   label: Preparation Time
+pages:
+- chocolate-cookies.md
